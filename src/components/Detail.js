@@ -17,19 +17,12 @@ const Detail = ({myMovies}) => {
 
   const topPage = useRef(null) 
   let { id } = useParams();
-  const navigate =  useNavigate()
-  const token = sessionStorage.getItem('token')
 
   useEffect(() => {
     topPage.current.scrollIntoView()
   }, [])
   
 
-  useEffect(() => {
-    if(token === null){
-      navigate('/')
-    }      
-  }, [token, navigate])
 
   useEffect(() => {
 

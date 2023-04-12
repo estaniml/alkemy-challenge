@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useRef, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import LoadingHeader from './LoadingHeader'
 import { AiFillHeart } from 'react-icons/ai'
 import { MdWarning } from 'react-icons/md'
